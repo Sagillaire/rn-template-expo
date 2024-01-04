@@ -16,6 +16,9 @@ export const GlobalStyles = StyleSheet.create({
         paddingHorizontal: 20,
         backgroundColor: '#6F1E51',
     },
+    btnShopColor: {
+        backgroundColor: '#574b90',
+    },
     btnText: {
         fontSize: 14,
         color: 'white',

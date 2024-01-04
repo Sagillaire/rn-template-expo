@@ -1,10 +1,10 @@
-import { MainStack } from "./main";
+import { TabsNavigator } from "./tabs";
 import { NavigationContainer } from "@react-navigation/native";
 
 export const RootNavigationContainer = () => {
     return (
         <NavigationContainer>
-            <MainStack />
+            <TabsNavigator />
         </NavigationContainer>
     );
 };

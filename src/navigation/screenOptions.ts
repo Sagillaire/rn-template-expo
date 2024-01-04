@@ -11,3 +11,15 @@ export const screenOptions: NativeStackNavigationOptions = {
     },
     headerTintColor: '#FFFFFF',
 }
+
+export const screenOptionsShop: NativeStackNavigationOptions = {
+    headerStyle: {
+        backgroundColor: '#574b90',
+    },
+    headerBackTitleVisible: false,
+    headerTitleStyle: {
+        color: '#FFFFFF',
+        fontWeight: '600',
+    },
+    headerTintColor: '#FFFFFF',
+}

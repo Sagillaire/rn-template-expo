@@ -9,7 +9,5 @@ export interface IAboutParams {
     name: string;
 }
 
-export const Stack = createNativeStackNavigator<TRootStackParamList>();
-
 export type THomeProps = NativeStackScreenProps<TRootStackParamList, 'Home'>
 export type TAboutProps = NativeStackScreenProps<TRootStackParamList, 'About'>
